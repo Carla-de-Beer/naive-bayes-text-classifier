@@ -1,0 +1,33 @@
+[
+  {
+    "path": "Business/B-01.txt",
+    "category": "A"
+  }, {
+    "path": "Business/B-02.txt",
+    "category": "A"
+  }, {
+    "path": "Business/B-03.txt",
+    "category": "A"
+  }, {
+    "path": "Business/B-04.txt",
+    "category": "A"
+  }, {
+    "path": "Business/B-05.txt",
+    "category": "A"
+  }, {
+    "path": "Sport/S-01.txt",
+    "category": "B"
+  }, {
+    "path": "Sport/S-02.txt",
+    "category": "B"
+  }, {
+    "path": "Sport/S-03.txt",
+    "category": "B"
+  }, {
+    "path": "Sport/S-04.txt",
+    "category": "B"
+  }, {
+    "path": "Sport/S-05.txt",
+    "category": "B"
+  }
+]

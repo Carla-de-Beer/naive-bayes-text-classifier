@@ -1,0 +1,123 @@
+body {
+  padding: 0; margin: 0;
+}
+
+canvas {
+  vertical-align: top;
+}
+
+.container {
+  position: relative;
+  left: 80px;
+  top: 40px;
+}
+
+.category {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.baseText {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  @extend .baseText;
+  font-size: 20px;
+  color: #4b4b4b;
+}
+
+.baseParagraph {
+  font-size: 15px;
+}
+
+p {
+  @extend .baseText, .baseParagraph;
+  font-weight: 100;
+  color: #77787E;
+}
+
+.result {
+  @extend .baseText, .baseParagraph;
+  position: relative;
+  top: -348px;
+  left: 650px;
+  font-weight: 500;
+}
+
+.paraPinkText {
+  color: #eb105a;
+}
+
+.paraGreenText {
+  color: #08eb3c;
+}
+
+.para {
+  @extend p;
+  font-weight: 600;
+}
+
+.para1 {
+  @extend p;
+  font-weight: 200;
+  color: #77787E;
+  font-style: italic;
+}
+
+.btn:focus {
+  outline: 0; }
+
+.btnBase {
+  width: 100px;
+  height: 40px;
+  margin-right: 7px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 4px;
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: -webkit-linear-gradient(top, #f5f2f0, #e8eaeb);
+  background-image: -moz-linear-gradient(top, #f5f2f0, #e8eaeb);
+  background-image: -ms-linear-gradient(top, #f5f2f0, #e8eaeb);
+  background-image: -o-linear-gradient(top, #f5f2f0, #e8eaeb);
+  background-image: linear-gradient(to bottom, #f5f2f0, #e8eaeb);
+  font-size: 12px;
+  text-decoration: none; }
+
+.btnBase:hover {
+  background: #CECCCD;
+  text-decoration: none;
+  background-image: -webkit-linear-gradient(top, #F5F2F3, #CECCCD);
+  background-image: -moz-linear-gradient(top, #F5F2F3, #CECCCD);
+  background-image: -ms-linear-gradient(top, #F5F2F3, #CECCCD);
+  background-image: -o-linear-gradient(top, #F5F2F3, #CECCCD);
+  background-image: linear-gradient(to bottom, #F5F2F3, #CECCCD);}
+
+.btn1 {
+  @extend .btnBase;
+  color: #eb105a;
+  background: #fff;
+}
+
+.btn1:hover {
+  @extend .btnBase:hover;
+}
+
+.btn2 {
+  @extend .btnBase;
+  color: #08eb3c;
+  background: #fff;
+}
+
+.btn2:hover {
+  @extend .btnBase:hover;
+}
+
+.btn3 {
+  @extend .btnBase;
+  color: #77787E;
+}
+
+.btn3:hover {
+  @extend .btnBase:hover;
+}
