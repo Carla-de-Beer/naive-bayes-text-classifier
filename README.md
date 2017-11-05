@@ -6,6 +6,8 @@ Train on any of the given training sets, and then test by either using one of th
 
 Built with P5js and RequireJS.
 
+The website can be viewed via the following URL: https://carla-de-beer.github.io/Naive-Bayesian-Text-Classifier/
+
 <p align="center">
   <img src="images/screenShot.png"/>
 </p>
