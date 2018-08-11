@@ -1,4 +1,5 @@
 # Naive-Bayesian-Text-Classifier
+[![GitHub issues](https://img.shields.io/github/issues/Carla-de-Beer/Processing.svg?style=flat-square)](https://github.com/Carla-de-Beer/Naive-Bayesian-Text-Classifier/issues)
 
 A naive Bayesian text classifier that classifies input text into one of two categories: either a BUSINESS article or a SPORT article.
 
