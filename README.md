@@ -5,9 +5,12 @@ A naive Bayesian text classifier that classifies input text into one of two cate
 
 Train on any of the given training sets, and then test by either using one of the provided validation texts, or input your own text into the text field provided.
 
-Built with P5js and RequireJS.
+Built with P5.js and RequireJS. Linting is provided by ESLint. To run the linter, install npm `npm install`, followed by `npm install eslint --save-dev`. To run the lint tests, type in the command `./node_modules/.bin/eslint scripts/bayes.js`, for example.
 
-To view this project, navigate to: https://carla-de-beer.github.io/Naive-Bayesian-Text-Classifier/
+## Instructions
+
+* To view this project, navigate to: https://carla-de-beer.github.io/Naive-Bayesian-Text-Classifier/
+
 
 <p align="center">
   <img src="images/screenShot.png"/>

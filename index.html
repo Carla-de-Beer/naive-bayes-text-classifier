@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="UTF-8">
-      <title>Naive Bayesian Text Classifier</title>
-      <script data-main="scripts/main" src="libraries/require.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
 
-      <div id="container" class="container">
-        <h3>Naive Bayesian Text Classifier</h3>
-          <p>The Bayesian Classifier is trained on a set of text documents. After training, a new document is presented to the classifier for classification.</p>
-          <p>The text documents are taken from <code>New York Times</code> archive articles (November 2016), relating to one of two categories: BUSINESS or SPORT.</p>
-          <br />
-          <p class="para1">1. Choose the training set size:</p>
-          <button id="choose11" class="btn3"><strong>2</strong> articles</button>
-          <button id="choose12" class="btn3"><strong>10</strong> articles</button>
-          <button id="choose13" class="btn3"><strong>20</strong> articles</button>
-          <br /><br />
-          <p class="para1">2. Choose an input text for classification:</p>
-          <button id="choose1" class="btn1">X-01.txt <strong>(BUSINESS)</strong></button>
-          <button id="choose2" class="btn1">X-02.txt <strong>(BUSINESS)</strong></button>
-          <button id="choose3" class="btn1">X-03.txt <strong>(BUSINESS)</strong></button>
-          <button id="choose4" class="btn1">X-04.txt <strong>(BUSINESS)</strong></button>
-          <button id="choose5" class="btn1">X-05.txt <strong>(BUSINESS)</strong></button>
-          <br /><br />
-          <button id="choose6" class="btn2">X-06.txt <strong>(SPORT)</strong></button>
-          <button id="choose7" class="btn2">X-07.txt <strong>(SPORT)</strong></button>
-          <button id="choose8" class="btn2">X-08.txt <strong>(SPORT)</strong></button>
-          <button id="choose9" class="btn2">X-09.txt <strong>(SPORT)</strong></button>
-          <button id="choose10" class="btn2">X-10.txt <strong>(SPORT)</strong></button>
-          <br /><br />
-          <p class="para1">3. Or enter your own text for classification:</p>
-          <textarea id="textArea" rows="6" cols="94"></textarea>
-          <br /><br /><br />
-          <button id="choose14" class="btn3"><strong>SUBMIT</strong></button>
-          <button id="choose15" class="btn3"><strong>CLEAR</strong></button>
-          <div id="innerContainer"></div>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <title>Naive Bayesian Text Classifier</title>
+  <script data-main="scripts/main" src="libraries/require.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-  </body>
+<body>
+
+  <div id="container" class="container">
+    <h3>Naive Bayesian Text Classifier</h3>
+    <p>The Bayesian Classifier is trained on a set of text documents. After training, a new document is presented to the classifier for classification.</p>
+    <p>The text documents are taken from <code>New York Times</code> archive articles (November 2016), relating to one of two categories: BUSINESS or SPORT.</p>
+    <br />
+    <p class="para1">1. Choose the training set size:</p>
+    <button id="choose11" class="btn3"><strong>2</strong> articles</button>
+    <button id="choose12" class="btn3"><strong>10</strong> articles</button>
+    <button id="choose13" class="btn3"><strong>20</strong> articles</button>
+    <br /><br />
+    <p class="para1">2. Choose an input text for classification:</p>
+    <button id="choose1" class="btn1">X-01.txt <strong>(BUSINESS)</strong></button>
+    <button id="choose2" class="btn1">X-02.txt <strong>(BUSINESS)</strong></button>
+    <button id="choose3" class="btn1">X-03.txt <strong>(BUSINESS)</strong></button>
+    <button id="choose4" class="btn1">X-04.txt <strong>(BUSINESS)</strong></button>
+    <button id="choose5" class="btn1">X-05.txt <strong>(BUSINESS)</strong></button>
+    <br /><br />
+    <button id="choose6" class="btn2">X-06.txt <strong>(SPORT)</strong></button>
+    <button id="choose7" class="btn2">X-07.txt <strong>(SPORT)</strong></button>
+    <button id="choose8" class="btn2">X-08.txt <strong>(SPORT)</strong></button>
+    <button id="choose9" class="btn2">X-09.txt <strong>(SPORT)</strong></button>
+    <button id="choose10" class="btn2">X-10.txt <strong>(SPORT)</strong></button>
+    <br /><br />
+    <p class="para1">3. Or enter your own text for classification:</p>
+    <textarea id="textArea" rows="6" cols="94"></textarea>
+    <br /><br /><br />
+    <button id="choose14" class="btn3"><strong>SUBMIT</strong></button>
+    <button id="choose15" class="btn3"><strong>CLEAR</strong></button>
+    <div id="innerContainer"></div>
+  </div>
+
+</body>
+
 </html>

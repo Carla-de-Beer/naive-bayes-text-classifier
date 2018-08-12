@@ -1,0 +1,29 @@
+{
+  "name": "naive-bayesian-text-classifier",
+  "version": "1.0.0",
+  "description": "Naive Bayesian Text Classifier",
+  "main": "scripts",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carla-de-Beer/Naive-Bayesian-Text-Classifier.git"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "Bayes'",
+    "Theorem"
+  ],
+  "author": "cadebe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carla-de-Beer/Naive-Bayesian-Text-Classifier/issues"
+  },
+  "homepage": "https://github.com/Carla-de-Beer/Naive-Bayesian-Text-Classifier#readme"
+}
