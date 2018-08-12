@@ -19,6 +19,7 @@ define(["util", "enums"],
       newWords: [],
       result: [],
 
+
       init: function() {
 
         var self = this;
@@ -206,6 +207,7 @@ define(["util", "enums"],
           if (this.dictionary.hasOwnProperty(key)) {
             var object = {};
             var word = this.dictionary[key];
+
             var freqA = word.countA / this.docCountA;
             var freqB = word.countB / this.docCountB;
 
@@ -249,6 +251,7 @@ define(["util", "enums"],
 
           var A = false;
           var B = false;
+
           var totalA = 0;
           var totalB = 0;
           for (var i = 0, l = this.newWords.length; i < l; ++i) {
@@ -278,6 +281,7 @@ define(["util", "enums"],
             newWord = this.newWords[i];
             for (j = 0, m = this.result.length; j < m; ++j) {
               if (this.result[j].word === newWord) {
+
                 if (A && !B) {
                   if (this.result[j].probA > 0) {
                     productA *= this.result[j].probA;
@@ -296,6 +300,7 @@ define(["util", "enums"],
                     productB *= this.result[j].probB;
                   }
                 }
+
               }
             }
           }
@@ -371,5 +376,7 @@ define(["util", "enums"],
         newParagraph.classList.add("result");
         container.appendChild(newParagraph);
       }
+
     }
+
   });
