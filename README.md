@@ -12,7 +12,7 @@ Train on any of the given training sets, and then test by either using one of th
 
 ## Instructions
 
-* To view this project, navigate to: https://carla-de-beer.github.io/Naive-Bayesian-Text-Classifier/.
+* To view this project, navigate to: https://carla-de-beer.github.io/naive-bayesian-text-classifier/.
 * First train the classifier on the training set prior to inputting text for classification.
 
 <p align="center">
