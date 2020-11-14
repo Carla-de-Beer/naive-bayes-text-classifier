@@ -1,5 +1,5 @@
 # Naive Bayes Text Classifier
-[![GitHub issues](https://img.shields.io/github/issues/Carla-de-Beer/Naive-Bayesian-Text-Classifier.svg?style=flat-square)](https://github.com/Carla-de-Beer/Naive-Bayesian-Text-Classifier/issues)
+[![GitHub issues](https://img.shields.io/github/issues/Carla-de-Beer/Naive-Bayes-Text-Classifier.svg?style=flat-square)](https://github.com/Carla-de-Beer/Naive-Bayes-Text-Classifier/issues)
 
 A Naive Bayes Text Classifier that classifies input text into one of two categories: either a BUSINESS article or a SPORT article.
 
@@ -12,7 +12,7 @@ Train on any of the given training sets, and then test by either using one of th
 
 ## Instructions
 
-* To view this project, navigate to: https://carla-de-beer.github.io/naive-bayesian-text-classifier/.
+* To view this project, navigate to: https://carla-de-beer.github.io/naive-bayes-text-classifier/.
 * First train the classifier on the training set prior to inputting text for classification.
 
 <p align="center">
