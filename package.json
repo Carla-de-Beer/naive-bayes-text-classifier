@@ -4,14 +4,18 @@
   "description": "Naive Bayesian Text Classifier",
   "main": "scriptFiles",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.18.1"
   },
   "devDependencies": {
-    "eslint": "^7.5.0"
+    "eslint": "^10.3.0",
+    "sass": "^1.99.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint scriptFiles/*.js"
+    "lint": "./node_modules/.bin/eslint scriptFiles/*.js",
+    "build": "./node_modules/.bin/sass css/style.scss css/style.css --no-source-map",
+    "watch": "./node_modules/.bin/sass css/style.scss css/style.css --no-source-map --watch",
+    "serve": "npx http-server . -p 8080 -o"
   },
   "repository": {
     "type": "git",

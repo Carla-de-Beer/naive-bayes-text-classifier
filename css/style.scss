@@ -7,9 +7,11 @@ canvas {
 }
 
 .container {
-  position: relative;
-  left: 80px;
-  top: 40px;
+  max-width: 900px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .category {
@@ -39,10 +41,9 @@ p {
 
 .result {
   @extend .baseText, .baseParagraph;
-  position: relative;
-  top: -348px;
-  left: 650px;
   font-weight: 500;
+  margin-top: 4px;
+  word-break: break-word;
 }
 
 .paraPinkText {
@@ -84,14 +85,11 @@ p {
   font-size: 12px;
   text-decoration: none; }
 
-.btnBase:hover {
+%btnHover {
   background: #CECCCD;
   text-decoration: none;
-  background-image: -webkit-linear-gradient(top, #F5F2F3, #CECCCD);
-  background-image: -moz-linear-gradient(top, #F5F2F3, #CECCCD);
-  background-image: -ms-linear-gradient(top, #F5F2F3, #CECCCD);
-  background-image: -o-linear-gradient(top, #F5F2F3, #CECCCD);
-  background-image: linear-gradient(to bottom, #F5F2F3, #CECCCD);}
+  background-image: linear-gradient(to bottom, #F5F2F3, #CECCCD);
+}
 
 .btn1 {
   @extend .btnBase;
@@ -100,7 +98,7 @@ p {
 }
 
 .btn1:hover {
-  @extend .btnBase:hover;
+  @extend %btnHover;
 }
 
 .btn2 {
@@ -110,7 +108,7 @@ p {
 }
 
 .btn2:hover {
-  @extend .btnBase:hover;
+  @extend %btnHover;
 }
 
 .btn3 {
@@ -119,5 +117,23 @@ p {
 }
 
 .btn3:hover {
-  @extend .btnBase:hover;
+  @extend %btnHover;
+}
+
+.btn1.selected {
+  background: #eb105a;
+  color: #fff;
+  background-image: none;
+}
+
+.btn2.selected {
+  background: #08eb3c;
+  color: #fff;
+  background-image: none;
+}
+
+.btn3.selected {
+  background: #77787E;
+  color: #fff;
+  background-image: none;
 }

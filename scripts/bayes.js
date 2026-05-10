@@ -264,9 +264,9 @@ define(["util", "enums"],
           // Make provision for all words being of the same category,
           // or most of the words being of one, and fewer of the other,
           // otherwise we are multiplying both sides by zero.
-          if (totalA > 0 && totalB == 0) {
+          if (totalA > 0 && totalB === 0) {
             A = true;
-          } else if (totalB > 0 && totalA == 0) {
+          } else if (totalB > 0 && totalA === 0) {
             B = true;
           } else if (totalA > 0 && totalB > 0 && totalA > totalB) {
             A = true;

@@ -5,12 +5,25 @@ define(function() {
 
 		addButtonEvent1: function(self, foo, id) {
 			var button = document.getElementById(id);
-			button.addEventListener("click", foo, false);
+			button.addEventListener("click", function() {
+				["choose11", "choose12", "choose13"].forEach(function(btnId) {
+					document.getElementById(btnId).classList.remove("selected");
+				});
+				button.classList.add("selected");
+				foo.call(this);
+			}, false);
 		},
 
 		addButtonEvent2: function(foo, id) {
 			var button = document.getElementById(id);
-			button.addEventListener("click", foo, false);
+			button.addEventListener("click", function() {
+				["choose1","choose2","choose3","choose4","choose5",
+				 "choose6","choose7","choose8","choose9","choose10"].forEach(function(btnId) {
+					document.getElementById(btnId).classList.remove("selected");
+				});
+				button.classList.add("selected");
+				foo.call(this);
+			}, false);
 		},
 
 		loadJSON: function (filePath, callback) {
